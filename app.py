@@ -35,7 +35,7 @@ def predict(IMG_PATH):
 
 # INITIALIZING FLASK APP
 app = Flask(__name__)
-cors = CORS(app)
+
 
 @app.route("/")
 def main():
